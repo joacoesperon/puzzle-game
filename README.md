@@ -1,80 +1,84 @@
-# Puzzle Game en Java
+# Puzzle Game in Java
 
-Un juego de puzzle interactivo desarrollado en Java que permite a los usuarios resolver rompecabezas con diferentes imágenes.
+An interactive puzzle game developed in Java that allows users to solve puzzles with different images.
 
-## 🎮 Características
+## 🎮 Features
 
-- **Múltiples niveles de dificultad**: Permite seleccionar diferentes divisiones del puzzle (2x2 hasta 10x10)
-- **Sistema de puntuación**: Los jugadores obtienen puntos basados en el tiempo que tardan en completar el puzzle
-- **Historial de partidas**: Guarda y muestra el registro de todas las partidas jugadas
-- **Personalización**: Permite cambiar el directorio de imágenes para usar tus propias imágenes
-- **Interfaz intuitiva**: Incluye:
-  - Barra de menú
-  - Barra de herramientas con iconos
-  - Panel de botones
-  - Visualización del tiempo restante
-  - Vista previa de la imagen completa
+- **Multiple difficulty levels**: Allows selecting different puzzle divisions (from 2x2 to 10x10)
+- **Scoring system**: Players earn points based on the time taken to complete the puzzle
+- **Game history**: Saves and displays a record of all played games
+- **Customization**: Allows changing the image directory to use your own images
+- **Intuitive interface**: Includes:
+  - Menu bar
+  - Toolbar with icons
+  - Button panel
+  - Remaining time display
+  - Full image preview
 
-## 🛠️ Requisitos del Sistema
+## 🛠️ System Requirements
 
-- Java JDK 15 o superior
-- Sistema operativo compatible con Java (Windows, Linux, MacOS)
+- Java JDK 15 or higher
+- Java-compatible operating system (Windows, Linux, MacOS)
 
-## 📥 Instalación
+## 📥 Installation
 
-1. Clona el repositorio:
+1. Clone the repository:
 
+```bash
 git clone https://github.com/joacoesperon/puzzle-game
+```
 
-2. Abre el proyecto en NetBeans o tu IDE preferido
+2. Open the project in NetBeans or your preferred IDE
 
-3. Compila y ejecuta el archivo `Principal.java`
+3. Compile and run the `Principal.java` file
 
-## 🎯 Cómo Jugar
+## 🎯 How to Play
 
-1. Inicia el juego
-2. Selecciona "NUEVA PARTIDA" desde el menú
-3. Ingresa tu nombre y selecciona el número de divisiones horizontales y verticales
-4. Haz clic en las piezas para intercambiar sus posiciones
-5. Completa el puzzle antes de que se acabe el tiempo
-6. ¡Consigue la mayor puntuación posible!
+1. Start the game
+2. Select "NEW GAME" from the menu
+3. Enter your name and select the number of horizontal and vertical divisions
+4. Click on pieces to swap their positions
+5. Complete the puzzle before time runs out
+6. Get the highest score possible!
 
-## 📁 Estructura del Proyecto
+## 📁 Project Structure
 
+```plaintext
 src/
 ├── practica/
-│ ├── Principal.java # Clase principal del juego
-│ ├── SubImagen.java # Manejo de las piezas del puzzle
-│ └── lecturaDatos.java # Gestión de entrada de datos
+│   ├── Principal.java # Main game class
+│   ├── SubImagen.java # Handles puzzle pieces
+│   └── lecturaDatos.java # Manages data input
 ├── paneles/
-│ ├── PanelPartida.java # Panel principal del juego
-│ ├── PanelHistorial.java # Visualización del historial
-│ └── PanelImagenSolucion.java # Muestra la solución
+│   ├── PanelPartida.java # Main game panel
+│   ├── PanelHistorial.java # Displays game history
+│   └── PanelImagenSolucion.java # Shows the solution
 └── partida/
-├── Partida.java # Lógica de la partida
-└── PartidaFileIn.java # Gestión de archivos
+    ├── Partida.java # Game logic
+    └── PartidaFileIn.java # File management
+```
 
+## 🤝 Contributing
 
-## 🤝 Contribuir
+Contributions are welcome. To contribute:
 
-Las contribuciones son bienvenidas. Para contribuir:
+1. Fork the project
+2. Create a new branch (`git checkout -b feature/AmazingFeature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+5. Push to the branch (`git push origin feature/AmazingFeature`)
+6. Open a Pull Request
 
-1. Haz un Fork del proyecto
-2. Crea una nueva rama (`git checkout -b feature/AmazingFeature`)
-3. Realiza tus cambios
-4. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-5. Push a la rama (`git push origin feature/AmazingFeature`)
-6. Abre un Pull Request
-
-## ✍️ Autores
+## ✍️ Author
 
 - Joaquín Esperón
 
-## 📄 Licencia
+## 📄 License
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.md) para más detalles.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-## 🎓 Reconocimientos
+## 🎓 Acknowledgments
 
-- Desarrollado como proyecto para la asignatura de Programación II en la UIB
-- Iconos e imágenes incluidas en el directorio `iconos/` e `imagenes/`
+- Developed as a project for the Programming II course at UIB
+- Icons and images included in the `iconos/` and `imagenes/` directories
+
